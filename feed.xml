@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom">
     <generator uri="https://github.com/maxvoltar/photo-stream">Photo Stream by @maxvoltar</generator>
-    <link href="https://osmanmoneer.com/feed.xml" rel="self" type="application/atom+xml" />
-    <link href="https://osmanmoneer.com/" rel="alternate" type="text/html"/>
-    <updated>2020-06-24T17:46:51-04:00</updated>
-    <id>2020-06-24T17:46:51-04:00</id>
+    <link href="osmium96.github.io/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="osmium96.github.io/" rel="alternate" type="text/html"/>
+    <updated>2020-06-24T17:54:03-04:00</updated>
+    <id>2020-06-24T17:54:03-04:00</id>
     <title type="html">osmanmoneer.com</title>
     <subtitle>osman's self-hosted photo stream.</subtitle>
     <author>
@@ -14,12 +14,12 @@
     </author>
     <entry>
       <title type="html">edgewood house</title>
-      <link href="https://osmanmoneer.com/edgewood-house/" rel="alternate" type="text/html" title="edgewood house" />
+      <link href="osmium96.github.io/edgewood-house/" rel="alternate" type="text/html" title="edgewood house" />
       <published>2020-06-24T15:21:46-04:00</published>
       <updated>2020-06-24T15:21:46-04:00</updated>
-      <id>https://osmanmoneer.com//edgewood-house/</id>
+      <id>osmium96.github.io//edgewood-house/</id>
       <content type="html">
-        <![CDATA[<figure><a href="https://osmanmoneer.com/edgewood-house/"><img src="https://osmanmoneer.com//photos/large/edgewood%20house-686656.jpg" alt="edgewood house" /></a></figure>
+        <![CDATA[<figure><a href="osmium96.github.io/edgewood-house/"><img src="osmium96.github.io//photos/large/edgewood%20house-686656.jpg" alt="edgewood house" /></a></figure>
       ]]>
     </content>
     <author>
@@ -27,17 +27,17 @@
       <email>omoneeer@gmail.com</email>
       <uri>https://osmanmoneer.com</uri>
     </author>
-    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://osmanmoneer.com//photos/large/edgewood%20house-686656.jpg" />
-      <media:content medium="image" url="https://osmanmoneer.com//photos/large/edgewood%20house-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="osmium96.github.io//photos/large/edgewood%20house-686656.jpg" />
+      <media:content medium="image" url="osmium96.github.io//photos/large/edgewood%20house-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
       </entry>
       <entry>
         <title type="html">laundromat</title>
-        <link href="https://osmanmoneer.com/laundromat/" rel="alternate" type="text/html" title="laundromat" />
+        <link href="osmium96.github.io/laundromat/" rel="alternate" type="text/html" title="laundromat" />
         <published>2020-06-24T15:00:12-04:00</published>
         <updated>2020-06-24T15:00:12-04:00</updated>
-        <id>https://osmanmoneer.com//laundromat/</id>
+        <id>osmium96.github.io//laundromat/</id>
         <content type="html">
-          <![CDATA[<figure><a href="https://osmanmoneer.com/laundromat/"><img src="https://osmanmoneer.com//photos/large/laundromat-686656.jpg" alt="laundromat" /></a></figure>
+          <![CDATA[<figure><a href="osmium96.github.io/laundromat/"><img src="osmium96.github.io//photos/large/laundromat-686656.jpg" alt="laundromat" /></a></figure>
         ]]>
       </content>
       <author>
@@ -45,17 +45,17 @@
         <email>omoneeer@gmail.com</email>
         <uri>https://osmanmoneer.com</uri>
       </author>
-      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://osmanmoneer.com//photos/large/laundromat-686656.jpg" />
-        <media:content medium="image" url="https://osmanmoneer.com//photos/large/laundromat-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="osmium96.github.io//photos/large/laundromat-686656.jpg" />
+        <media:content medium="image" url="osmium96.github.io//photos/large/laundromat-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
         </entry>
         <entry>
           <title type="html">lot by ups</title>
-          <link href="https://osmanmoneer.com/lot-by-ups/" rel="alternate" type="text/html" title="lot by ups" />
+          <link href="osmium96.github.io/lot-by-ups/" rel="alternate" type="text/html" title="lot by ups" />
           <published>2020-06-24T14:55:40-04:00</published>
           <updated>2020-06-24T14:55:40-04:00</updated>
-          <id>https://osmanmoneer.com//lot-by-ups/</id>
+          <id>osmium96.github.io//lot-by-ups/</id>
           <content type="html">
-            <![CDATA[<figure><a href="https://osmanmoneer.com/lot-by-ups/"><img src="https://osmanmoneer.com//photos/large/lot%20by%20ups-686656.jpg" alt="lot by ups" /></a></figure>
+            <![CDATA[<figure><a href="osmium96.github.io/lot-by-ups/"><img src="osmium96.github.io//photos/large/lot%20by%20ups-686656.jpg" alt="lot by ups" /></a></figure>
           ]]>
         </content>
         <author>
@@ -63,17 +63,17 @@
           <email>omoneeer@gmail.com</email>
           <uri>https://osmanmoneer.com</uri>
         </author>
-        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://osmanmoneer.com//photos/large/lot%20by%20ups-686656.jpg" />
-          <media:content medium="image" url="https://osmanmoneer.com//photos/large/lot%20by%20ups-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="osmium96.github.io//photos/large/lot%20by%20ups-686656.jpg" />
+          <media:content medium="image" url="osmium96.github.io//photos/large/lot%20by%20ups-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
           </entry>
           <entry>
             <title type="html">edgewood drive</title>
-            <link href="https://osmanmoneer.com/edgewood-drive/" rel="alternate" type="text/html" title="edgewood drive" />
+            <link href="osmium96.github.io/edgewood-drive/" rel="alternate" type="text/html" title="edgewood drive" />
             <published>2020-06-24T14:54:33-04:00</published>
             <updated>2020-06-24T14:54:33-04:00</updated>
-            <id>https://osmanmoneer.com//edgewood-drive/</id>
+            <id>osmium96.github.io//edgewood-drive/</id>
             <content type="html">
-              <![CDATA[<figure><a href="https://osmanmoneer.com/edgewood-drive/"><img src="https://osmanmoneer.com//photos/large/edgewood%20drive-686656.jpg" alt="edgewood drive" /></a></figure>
+              <![CDATA[<figure><a href="osmium96.github.io/edgewood-drive/"><img src="osmium96.github.io//photos/large/edgewood%20drive-686656.jpg" alt="edgewood drive" /></a></figure>
             ]]>
           </content>
           <author>
@@ -81,7 +81,7 @@
             <email>omoneeer@gmail.com</email>
             <uri>https://osmanmoneer.com</uri>
           </author>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://osmanmoneer.com//photos/large/edgewood%20drive-686656.jpg" />
-            <media:content medium="image" url="https://osmanmoneer.com//photos/large/edgewood%20drive-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="osmium96.github.io//photos/large/edgewood%20drive-686656.jpg" />
+            <media:content medium="image" url="osmium96.github.io//photos/large/edgewood%20drive-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
             </entry>
           </feed>
