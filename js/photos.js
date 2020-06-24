@@ -71,9 +71,28 @@ lazyload();
   <a href="/lot-by-ups" data-target="lot-by-ups" class="previous" title="Go to previous photo">
     <span>Previous</span>
   </a>
+  <a href="/rib-on-grill" data-target="rib-on-grill" class="next" title="Go to next photo">
+    <span>Next</span>
+  </a>
   <!-- <ul class="meta">
     <li>E-M10 Mark III</li>
     <li>1/4000</li>
+    <li><span class="aperture"><em>f</em>/</span>1.8</li>
+	</ul> -->
+</li>
+<li class="item " id="rib-on-grill" style="background-image: url('/photos/tint/rib%20on%20grill-65ba1d.jpg')" title="rib on grill">
+  <img class="lazyload" data-src="/photos/thumbnail/rib%20on%20grill-ccf4df.jpg" src="/photos/tint/rib%20on%20grill-65ba1d.jpg" height="1536" width="2048" />
+  <span class="full">
+    <span style="background-image: url('/photos/large/rib%20on%20grill-686656.jpg')"></span>
+  </span>
+  <a class="open" href="/rib-on-grill" data-target="rib-on-grill">Open</a>
+  <a class="close" href="/">Close</a>
+  <a href="/edgewood-drive" data-target="edgewood-drive" class="previous" title="Go to previous photo">
+    <span>Previous</span>
+  </a>
+  <!-- <ul class="meta">
+    <li>E-M10 Mark III</li>
+    <li>1/60</li>
     <li><span class="aperture"><em>f</em>/</span>1.8</li>
 	</ul> -->
 </li>
