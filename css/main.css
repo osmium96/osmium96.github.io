@@ -6,7 +6,7 @@ body {
 }
 .v2_4 {
   width: 100%;
-  height: 4804px;
+  height: 1804px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -16,7 +16,7 @@ body {
 }
 .v2_41 {
   width: 100%;
-  height: 3204px;
+  height: 5204px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
@@ -49,6 +49,18 @@ body {
   opacity: 1;
   text-align: left;
 }
+.v9_92 {
+  width: 780px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3106px;
+  left: 84px;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
 .v2_17 {
   width: 412px;
   color: url("../images/v2_17.png");
@@ -73,6 +85,18 @@ body {
   opacity: 1;
   text-align: left;
 }
+.v2_172 {
+  width: 412px;
+  color: url("../images/v2_17.png");
+  position: absolute;
+  top: 3270px;
+  left: 84px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
 .optimizing-medication-manageme {
   width: 605px; 
   color: rgba(242, 153, 74, 1);
@@ -86,7 +110,19 @@ body {
   font-family: Abril Fatface;
   font-weight: Bold;
 }
-.div-3 {
+.i-have-worked {
+  width: 605px; 
+  color: rgba(242, 153, 74, 1);
+  position: absolute;
+  top: 3190px;
+  left: 84px; 
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: Abril Fatface;
+  font-weight: Bold;
+}.div-3 {
   max-width: 581px;
   color: rgba(242, 153, 74, 1);
   position: absolute;
