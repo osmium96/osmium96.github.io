@@ -29,7 +29,7 @@ body {
 .wrapper2 {
   max-width: 950px;
 /*  top: 106px;
-*/  left: 84px;
+*/  left: 166px;
 
   display: grid;
   grid-template-columns: 2fr 3fr;
@@ -108,23 +108,54 @@ img {
 }
 
 
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+/*  background-color: #f1f1f1;
+*/  position: fixed;
+  height: 100%;
+  overflow: auto;
+  margin-top: 20px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: rgba(242,153,74,1);
+  color: white;
+}
+
+
 /* *********************** */
 
 /*updated research page */
 
 .container_research {
   width: 100%;
-/*  height: 1609px;
-*/  background: rgba(255,255,255,1);
+  background: rgba(255,255,255,1);
   opacity: 1;
-  position: absolute;
-/*  top: 0px;
-  left: 0px;*/
+  position: relative;
   overflow:  hidden;
   margin: 0 auto;
-  padding: 84px;
+  padding-left: 166px;
 
 }
+
 
 .container_eats {
   width: 100%;
@@ -136,7 +167,7 @@ img {
   left: 0px;*/
   overflow:  hidden;
   margin: 0 auto;
-  padding: 84px;
+  padding-left: 166px;
 
 }
 
