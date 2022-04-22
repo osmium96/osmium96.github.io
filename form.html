@@ -50,8 +50,8 @@
 				text-align: left;
 				
 				/* To give the same size to all text fields */
-				width: 200px;
-				box-sizing: border-box; /* To harmonize the look & feel of text field border */
+/*				width: 200px;
+*/				box-sizing: border-box; /* To harmonize the look & feel of text field border */
 
 /*				border: 1px solid #999;
 */			}
@@ -105,22 +105,39 @@
 		<form action="eats.html" method="post">
 			<ul>
 				<li>
-					<label for="name">cost</label>
-					<input type="text" id="name" name="user_name" />
+					<label for="name">cost <br></label>
+						  <input type="checkbox" id="cost_one" name="cost_one" value="$">
+						  <label for="cost_one">$</label>
+
+						  <input type="checkbox" id="cost_two" name="cost_two" value="$$">
+						  <label for="cost_two">$$</label>
+
+						  <input type="checkbox" id="cost_three" name="cost_three" value="$$$">
+						  <label for="cost_three">$$$</label>
 				</li>
 				<li>
-					<label for="mail">cuisine</label>
-					<input type="text" id="mail" name="user_mail" />
-				</li>
-				<li>
-					<label for="text">group size</label>
-					<input id="text" name="user_message"></textarea>
-				</li>
+					<label for="mail">group size</label>
+						  <input type="checkbox" id="group_one" name="group_one" value="group_one">
+						  <label for="group_one">1</label>
+
+						  <input type="checkbox" id="group_two" name="group_two" value="group_two">
+						  <label for="group_two">2</label>
+
+						  <input type="checkbox" id="group_three" name="group_three" value="group_three">
+						  <label for="group_three">3+</label>
+
+<!-- 						  <input type="checkbox" id="group_four" name="group_four" value="group_four">
+						  <label for="group_four">4</label>
+
+						  <input type="checkbox" id="group_five" name="group_five" value="group_five">
+						  <label for="group_five">5</label>
+ -->
+				</li>				
+			</li>
 				<li>
 					<label for="text">occasion</label>
 					<input id="text" name="user_message"></textarea>
 				</li>
-
 
 				<li class="button">
 					<button type="submit">munch munch</button>
