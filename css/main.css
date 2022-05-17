@@ -181,8 +181,8 @@ button {
   background: rgba(255,255,255,1);
   opacity: 1;
   position: relative;
-  overflow:  hidden;
-  margin: 0 auto;
+/*  overflow:  hidden;
+*/  margin: 0 auto;
   padding-left: 166px;
 
 }
@@ -263,14 +263,14 @@ p[type="citation"]{
 
 .container_research {
   width: 100%;
-  height: 1609px;
-  background: rgba(255,255,255,1);
+/*  height: 1609px;
+*/  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
-  overflow: hidden;
-}
+/*  overflow: hidden;
+*/}
 .v24_2 {
   width: 780px;
   color: rgba(0,0,0,1);
