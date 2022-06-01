@@ -16,29 +16,7 @@ body {
   text-align: left;
 }
 
-/*.wrapper {
-  max-width: 1300px;
-  top: 106px;
-  left: 84px;
 
-  position: relative;
-  overflow: hidden;
-
-}*/
-
-.wrapper2 {
-  max-width: 950px;
-/*  top: 106px;
-*/  left: 166px;
-
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-auto-rows: auto;
-
-  position: relative;
-  overflow: hidden;
-
-}
 
 h1 {
   width: 100%;
@@ -52,12 +30,6 @@ h1 {
   color: rgba(0,0,0,1);
 }
 
-article {
-  grid-column: 1;
-  grid-row: 2;
-  margin: 0 auto;
-
-}
 
 p[type="main"]{
   width: 100%;
@@ -78,22 +50,44 @@ p[type="caption"]{
   font-weight: normal;
 }
 
+a {
+  color: rgba(47,128,237,1);
+  /*font-weight: 700;*/
+}
+
+
+
+article {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0 auto;
+
+}
+
 aside {
   width: 100%;
   padding: 10px;
   grid-column: 2;
   grid-row: 2;
   margin: 0 auto;
-/*  padding-left: .5rem;
+  padding-left: .5rem;
   margin-left: .5rem;
-*/ 
+ 
 }
 
-a {
-  color: rgba(47,128,237,1);
-  /*font-weight: 700;*/
-}
+.wrapper2 {
+  max-width: 950px;
+/*  top: 106px;
+*/  left: 166px;
 
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: auto;
+
+  position: relative;
+  overflow: hidden;
+
+}
 
 .box {
   max-width: 100%;
@@ -104,6 +98,8 @@ a {
 img {
   max-width: 100%;
 }
+
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
