@@ -1,0 +1,595 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+
+/* max width */
+@media (max-width: 500px) {
+  body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 12px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  opacity: 1;
+  text-align: left;
+}
+
+
+h2 {
+  /*width: 605px; */
+  color: rgba(242,153,74,1);
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+
+h3 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 12px;
+  font-family: Fira Mono;
+  font-weight: 700;
+  opacity: 1;
+  text-align: left;
+}
+
+h5 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 12px;
+  font-family: Fira Mono;
+  font-weight: 500;
+  opacity: 1;
+  text-align: left;
+}
+
+
+h4 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 16px;
+  font-family: Fira Mono;
+  font-weight: 700;
+/*  text-decoration: underline;
+*/  opacity: 1;
+  text-align: left;
+}
+
+p{
+  width: 100%;
+  max-width: 800px;
+}
+
+p[type="citation"]{
+  width: 100%;
+  max-width: 800px;
+}
+h1 {
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: rgba(0,0,0,1);
+}
+
+
+p[type="main"]{
+  width: 100%;
+  max-width: 412px;
+}
+
+
+li{
+  width: 100%;
+  max-width: 800px;
+}
+
+
+p[type="caption"]{
+  width: 100%;
+  margin-left: 30px;
+  color: rgba(47,128,237,1);
+  font-weight: normal;
+}
+article {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 auto;
+
+  }
+
+  aside {
+    width: 100%;
+    padding: 10px;
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0 auto;
+    padding-left: .5rem;
+    margin-left: .5rem;
+   
+  }
+
+
+.container_research {
+  width: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right:20px;
+
+}
+
+}
+
+/* min width */
+@media (min-width: 501px) {
+  body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 20px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  opacity: 1;
+  text-align: left;
+  padding-right:35px;
+}
+
+h2 {
+  /*width: 605px; */
+  color: rgba(242,153,74,1);
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+
+h3 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 20px;
+  font-family: Fira Mono;
+  font-weight: 700;
+  opacity: 1;
+  text-align: left;
+}
+
+h5 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 20px;
+  font-family: Fira Mono;
+  font-weight: 500;
+  opacity: 1;
+  text-align: left;
+}
+
+
+h4 {
+  width: 100%;
+  max-width: 800px;
+
+  font-size: 24px;
+  font-family: Fira Mono;
+  font-weight: 700;
+/*  text-decoration: underline;
+*/  opacity: 1;
+  text-align: left;
+}
+
+p{
+  width: 100%;
+  max-width: 800px;
+}
+
+p[type="citation"]{
+  width: 100%;
+  max-width: 800px;
+}
+h1 {
+  width: 100%;
+  grid-column: 1 / 2;
+  grid-row: 1;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  color: rgba(0,0,0,1);
+}
+
+
+p[type="main"]{
+  width: 100%;
+  max-width: 412px;
+}
+
+
+li{
+  width: 100%;
+  max-width: 800px;
+}
+
+
+p[type="caption"]{
+  width: 100%;
+  margin-left: 30px;
+  color: rgba(47,128,237,1);
+  font-weight: normal;
+}article {
+  grid-column: 1;
+  grid-row: 2;
+  margin: 0 auto;
+
+  }
+
+aside {
+  width: 100%;
+  padding: 10px;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0 auto;
+  padding-left: .5rem;
+  margin-left: .5rem;
+ 
+  } 
+
+
+.container_research {
+  width: 100%;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 166px;
+
+}
+
+
+}
+
+
+
+/*sidebars*/
+
+@media screen and (min-width: 501px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 20px;
+
+  }
+
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: rgba(242,153,74,1);
+  color: white;
+}
+
+
+a {
+  color: rgba(47,128,237,1);
+  /*font-weight: 700;*/
+}
+
+
+
+.wrapper2 {
+  max-width: 950px;
+/*  top: 106px;
+*/  left: 166px;
+
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-auto-rows: auto;
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.box {
+ /* max-width: 100%;*/
+  max-width: 800px;
+  padding: 10px;
+  margin: 20px;
+}
+
+img {
+  max-width: 100%;
+  display:block;
+}
+
+
+
+/* Style the links inside the navigation bar */
+
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 150px;
+  margin: 0 auto;
+  /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space between the labels and their text fields */
+/*  margin-left: 0.5em/*;
+*/
+  font-size: 20px;
+  font-family: Fira Mono;
+  font-weight: 700;
+  text-align: left;
+  color: rgba(47,128,237,1);
+
+}
+
+
+
+/* *********************** */
+
+/*updated research page */
+
+
+
+.container_eats {
+  width: 100%;
+/*  height: 3709px;
+*/  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+/*  top: 0px;
+  left: 0px;*/
+  overflow:  hidden;
+  margin: 0 auto;
+  padding-left: 166px;
+
+}
+
+
+.name {
+  color: rgba(47,128,237,1);
+  font-weight: 700;
+}
+
+.v24_4 {
+  width: 619px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 239px;
+  left: 75px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_12 {
+  width: 619px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 1087px;
+  left: 75px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+/*old research page */
+
+.container_research {
+  width: 100%;
+/*  height: 1609px;
+*/  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+/*  overflow: hidden;
+*/}
+.v24_2 {
+  width: 780px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 93px;
+  left: 79px;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_3 {
+  width: 605px;
+  color: rgba(242,153,74,1);
+  position: absolute;
+  top: 175px;
+  left: 75px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_19 {
+  width: 605px;
+  color: rgba(242,153,74,1);
+  position: absolute;
+  top: 1023px;
+  left: 75px;
+  font-family: Abril Fatface;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_4 {
+  width: 619px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 239px;
+  left: 75px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.v24_12 {
+  width: 619px;
+  color: rgba(51,51,51,1);
+  position: absolute;
+  top: 1087px;
+  left: 75px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+
+/* delta */
+
+.v2_41 {
+  width: 100%;
+  height: 5204px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+
+.v9_91 {
+  width: 780px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 106px;
+  left: 84px;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v2_171 {
+  width: 412px;
+  color: url("../images/v2_17.png");
+  position: absolute;
+  top: 268px;
+  left: 84px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.v9_92 {
+  width: 780px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 3106px;
+  left: 84px;
+  font-family: Josefin Sans;
+  font-weight: Bold;
+  font-size: 60px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v2_172 {
+  width: 412px;
+  color: url("../images/v2_17.png");
+  position: absolute;
+  top: 3270px;
+  left: 84px;
+  font-family: Fira Mono;
+  font-weight: normal;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.optimizing-medication-manageme {
+  width: 605px; 
+  color: rgba(242, 153, 74, 1);
+  position: absolute;
+  top: 188px;
+  left: 84px; 
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: Abril Fatface;
+  font-weight: Bold;
+}
+.i-have-worked {
+  width: 605px; 
+  color: rgba(242, 153, 74, 1);
+  position: absolute;
+  top: 3190px;
+  left: 84px; 
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  font-family: Abril Fatface;
+  font-weight: Bold;
+}
