@@ -3,8 +3,9 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section{display:block}summary{display:list-item}
 
-
-html,body{font-family:Fira Mono;font-size:16px;font-weight: normal;text-align: left;padding-left:5px;padding-right:5px;max-width: 600px}
+/*font sizing based on pixels (older method) */
+/*
+html,body{font-family:Fira Mono;font-size:16px;font-weight: normal;text-align: left;padding-left:5px;padding-right:5px;max-width: 800px}
 html{overflow-x:hidden}
 h1{font-size:42px;color: rgba(0,0,0,1);font-family: Josefin Sans;font-weight: 700}
 h2{font-size:30px;color: rgba(242,153,74,1);font-family: Abril Fatface;font-weight: Regular}
@@ -13,15 +14,53 @@ h3{font-size:16px;font-family: Fira Mono;font-weight: Regular}
 h5{font-size:16px;font-family: Fira Mono;font-weight: 500}
 h1,h2,h3,h4,h5,h6{margin:10px 0}
 
+*/
 
-p{width: 100%; max-width: 800px}
+/*font sizing based on % and em (newer method)*/
+html,body{font-family:Fira Mono;font-size:100%;font-weight: normal;text-align: left;padding-left:5px;padding-right:5px;max-width: 800px}
+html{overflow-x:hidden}
+h1{font-size:2.75em;color: rgba(0,0,0,1);font-family: Josefin Sans;font-weight: 700}
+h2{font-size:1.875em;color: rgba(242,153,74,1);font-family: Abril Fatface;font-weight: Regular}
+h4{font-size:1.25em;font-family: Fira Mono;font-weight: 700}
+h3{font-size:1.125em;font-family: Fira Mono;font-weight:5700;}
+h5{font-size:1em;font-family: Fira Mono;font-weight: 500}
+h1,h2,h3,h4,h5,h6{margin:10px 0}
+
+
+
+h5[type="publication_heading"]
+{ 
+  
+  margin-left: 0px;
+}
+
+p{width: 100%; max-width: 600px}
+
+p[type="research_description"]
+{ 
+  margin-left: 0px;
+}
+
+p[type="citation"]
+{
+  font-size:0.875em;
+}
+
+ul[type="small_font"]
+{
+  font-size:1em;
+}
+
 p[type="main"]{width: 100%; max-width: 412px}
 
 p[type="caption"]{margin-left: 30px; color: rgba(47,128,237,1)}
 
+p[type="photo"]{width: 100%; max-width: 1200px}
+
 a {color: rgba(47,128,237,1)}
 
-img {width: 100%;max-width: 400px;display:block}
+
+img {width: 100%;max-width: 1200px;display:block}
 
 /*article and aside viewport settings*/
 
